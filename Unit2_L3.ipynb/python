@@ -1,0 +1,261 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Unit2_L3.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyO2GKUBttOqGTCE0VYt3qVW",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bniang000/Python/blob/main/Unit2_L3.ipynb/python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "question 1"
+      ],
+      "metadata": {
+        "id": "NCW_TCvYmUF2"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "za3lZ7nzmENf"
+      },
+      "outputs": [],
+      "source": [
+        "TvShows = ['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "question 2"
+      ],
+      "metadata": {
+        "id": "NdOouo43nJCF"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "TvShows = ['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+        "print (TvShows)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ClHQCEVKnPDo",
+        "outputId": "9dbde4ff-4b0c-4fb3-993b-aa6676f73847"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "question 3"
+      ],
+      "metadata": {
+        "id": "WYjukzdfoudN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "TvShows = ['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+        "print (TvShows)\n",
+        "TvShows.sort()\n",
+        "print (TvShows)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Cao7ch0rov33",
+        "outputId": "b5faec21-bae9-45a2-80b6-5128c2dc62d9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+            "['Jakkarlo', 'Ndoumbelane', 'SNl', 'The Daily Show', 'The Late show']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "question 4"
+      ],
+      "metadata": {
+        "id": "0b1GDg03o9hU"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "TvShows = ['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+        "print (TvShows)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GsKwFjofo_RI",
+        "outputId": "47d87d7d-e0f4-45f6-bc69-78e200157cd0"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "question 5"
+      ],
+      "metadata": {
+        "id": "QYbstX3ppHp_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "TvShows = ['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+        "print (TvShows)\n",
+        "TvShows.sort()\n",
+        "print (TvShows)\n",
+        "print (Sorted(TvShows))\n",
+        "print (TvShows)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 294
+        },
+        "id": "89P7znQZpI-7",
+        "outputId": "24b44533-a537-4c93-ed1a-dda0e1c5b079"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+            "['Jakkarlo', 'Ndoumbelane', 'SNl', 'The Daily Show', 'The Late show']\n"
+          ]
+        },
+        {
+          "output_type": "error",
+          "ename": "NameError",
+          "evalue": "ignored",
+          "traceback": [
+            "\u001b[0;31m---------------------------------------------------------------------------\u001b[0m",
+            "\u001b[0;31mNameError\u001b[0m                                 Traceback (most recent call last)",
+            "\u001b[0;32m<ipython-input-12-0285623eb9e7>\u001b[0m in \u001b[0;36m<module>\u001b[0;34m()\u001b[0m\n\u001b[1;32m      3\u001b[0m \u001b[0mTvShows\u001b[0m\u001b[0;34m.\u001b[0m\u001b[0msort\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[1;32m      4\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mTvShows\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0;32m----> 5\u001b[0;31m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mSorted\u001b[0m\u001b[0;34m(\u001b[0m\u001b[0mTvShows\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n\u001b[0m\u001b[1;32m      6\u001b[0m \u001b[0mprint\u001b[0m \u001b[0;34m(\u001b[0m\u001b[0mTvShows\u001b[0m\u001b[0;34m)\u001b[0m\u001b[0;34m\u001b[0m\u001b[0;34m\u001b[0m\u001b[0m\n",
+            "\u001b[0;31mNameError\u001b[0m: name 'Sorted' is not defined"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "question 6"
+      ],
+      "metadata": {
+        "id": "miFi5qNnqCn8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "TvShows = ['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+        "print (TvShows)\n",
+        "TvShows.sort()\n",
+        "print (TvShows)\n",
+        "len(TvShows)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "txstOfq3qGoq",
+        "outputId": "3a258b50-07fc-4137-941b-07ec05b6484e"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['The Daily Show', 'SNl', 'The Late show', 'Jakkarlo', 'Ndoumbelane']\n",
+            "['Jakkarlo', 'Ndoumbelane', 'SNl', 'The Daily Show', 'The Late show']\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "5"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 14
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "c8zgrLudqCH3"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
