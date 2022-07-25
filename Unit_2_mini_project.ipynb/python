@@ -1,0 +1,63 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Unit 2 mini project.ipynb",
+      "provenance": [],
+      "authorship_tag": "ABX9TyPxqjy+1SImhRgSqlMfRu8j",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/bniang000/Python/blob/main/Unit_2_mini_project.ipynb/python\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 4,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qnyXyqfQG6my",
+        "outputId": "c32d0cf4-1709-4a91-969b-92569e932b6b"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter a number:8\n",
+            "you picked an even number.\n",
+            "8 is a multiple of 4\n"
+          ]
+        }
+      ],
+      "source": [
+        "num = int(input(\"Enter a number:\"))\n",
+        "mod = num % 2\n",
+        "if mod > 0:\n",
+        "  print(\"you picked an odd number.\")\n",
+        "else:\n",
+        "  print(\"you picked an even number.\")\n",
+        "if num % 4 == 0:\n",
+        "  print (num, \"is a multiple of 4\")\n"
+      ]
+    }
+  ]
+}
